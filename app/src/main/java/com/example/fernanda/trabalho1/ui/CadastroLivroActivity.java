@@ -15,9 +15,6 @@ import static com.example.fernanda.trabalho1.ui.MainActivity.NOME_BD;
 
 public class CadastroLivroActivity extends AppCompatActivity {
 
-    static final String CADASTRO_LIVRO_KEY = "cadastro_livro_key";
-    static final String ID_LIVRO_KEY = "id_livro_key";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -23,7 +23,6 @@ import static com.example.fernanda.trabalho1.ui.MainActivity.NOME_BD;
 public class LivroActivity extends AppCompatActivity {
 
     static final String LIVRO_KEY = "livro_key";
-    static final String RESERVAS_KEY = "reservas_key";
 
     private EditText etTitulo;
     private EditText etEditora;
