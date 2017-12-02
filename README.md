@@ -12,3 +12,5 @@ O projeto possui três classes principais:
     1. Livro: A classe livro guarda a informação do livro (id, título, editora e ano de publicação) 
     2. Pessoa: A classe pessoa guarda a informação da pessoa (id, nome, email, horário de entrada e saída da bienal)
     3. Reserva: A classe reservar, guarda a informação da pessoa e a lista de livros que ela reservou.
+
+As informaçes do aplicativo são armazenadas no banco de dados. O banco possui as mesmas tabelas que o model e os mesmos campos: livro, pessoa e reserva. Reserva é uma tabela gerada pela relação n para n das tabelas pessoa e livro. 
