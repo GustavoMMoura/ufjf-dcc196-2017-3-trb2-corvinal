@@ -14,3 +14,7 @@ O projeto possui três classes principais:
     3. Reserva: A classe reservar, guarda a informação da pessoa e a lista de livros que ela reservou.
 
 As informaçes do aplicativo são armazenadas no banco de dados. O banco possui as mesmas tabelas que o model e os mesmos campos: livro, pessoa e reserva. Reserva é uma tabela gerada pela relação n para n das tabelas pessoa e livro. 
+
+Segue abaixo o diagrama do banco:
+
+![untitled diagram](https://user-images.githubusercontent.com/17342135/33520033-173abff2-d79a-11e7-9c70-8bc2e7583759.png)
